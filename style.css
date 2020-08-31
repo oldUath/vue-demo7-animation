@@ -1,0 +1,25 @@
+/* 关闭时的动画 */
+.fade-leave-active {
+    transition: all 2s;
+  }
+  /* 从默认状态变到这个状态 */
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+    width: 100px;
+  }
+  /* 第一帧进入过度时显示的状态*/
+ .fade-enter{
+    background:red;
+  }
+  /* 在过度状态中，从开始直到结束，一直显示 */
+.fade-enter-active{
+    transition: all 8s;
+    background:blue;
+}
+
+  p{
+      width: 300px;
+      border:1px solid red;
+  }
+
+  
