@@ -8,15 +8,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <!-- 组件过度 -->
-    <div id="demo">
-        <button v-on:click="show = !show">
-          Toggle
-        </button> 
-        <transition name="fade">
+    <div id="example-1">
+        <button @click="show = !show">
+          Toggle render
+        </button>
+        <transition name="slide-fade">
           <p v-if="show">hello</p>
         </transition>
-    </div>
+      </div>
 
     
     <script src="main.js"></script>

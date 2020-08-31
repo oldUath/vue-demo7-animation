@@ -1,8 +1,7 @@
 new Vue({
-    el: '#demo',
+    el: '#example-1',
     data: {
       show: true
     }
   })
-
   
