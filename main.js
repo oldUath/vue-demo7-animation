@@ -1,5 +1,5 @@
 new Vue({
-    el: '#example-1',
+    el: '#example-2',
     data: {
       show: true
     }

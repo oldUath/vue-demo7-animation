@@ -8,12 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <div id="example-1">
-        <button @click="show = !show">
-          Toggle render
-        </button>
-        <transition name="slide-fade">
-          <p v-if="show">hello</p>
+    <div id="example-2">
+        <button @click="show = !show">Toggle show</button>
+        <transition name="bounce">
+          <p v-if="show">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis enim libero, at lacinia diam fermentum id. Pellentesque habitant morbi tristique senectus et netus.</p>
         </transition>
       </div>
 
